@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@700&family=Pacifico&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-family: "Balsamiq Sans", cursive;
+  font-size: 60px;
+  text-align: center;
+  margin: 15px;
+}
+.container {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img {
+  width: 400px;
+  height: 260px;
+  padding: 20px;
+  box-sizing: border-box;
+  transition: 1s;
+}
+.img1:hover {
+  filter: blur(5px);
+}
+.img2:hover {
+  filter: drop-shadow(15px 15px 18px gray);
+}
+.img3:hover {
+  filter: grayscale(1);
+}
+.img4:hover {
+  filter: opacity(0.5);
+}
+.img5:hover {
+  filter: invert(25%);
+}
+.img6:hover {
+  filter: saturate(10%);
+}
+.img7:hover {
+  filter: contrast(150%);
+}
+.img8:hover {
+  filter: sepia(100%);
+}
+.img9:hover {
+  filter: blur(10px) drop-shadow(20px 20px 15px gray);
+}
+.img10:hover {
+  filter: drop-shadow(25px 25px 20px gray) grayscale(1);
+  transform: translateX(20px);
+}

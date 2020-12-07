@@ -1,0 +1,66 @@
+body {
+  background-image: url(../img/pic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.content {
+  height: 800px;
+  display: flex;
+  align-items: center;
+}
+caption {
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+table {
+  width: 800px;
+  margin-left: 0;
+  font-size: 30px;
+  padding: 5px;
+  border: 2px solid black;
+  border-collapse: collapse;
+}
+td {
+  padding: 5px;
+  border: 2px solid black;
+}
+tr:nth-child(even) {
+  background-color: lightgray;
+}
+.button {
+  padding: 5px;
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  border: 2px solid black;
+}
+@media screen and (max-width: 800px) {
+  body {
+    background-image: url("../img/pic3.jpg");
+  }
+  table {
+    font-size: 20px;
+    width: 100%;
+  }
+  .content {
+    height: 430px;
+    display: flex;
+    align-items: baseline;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    background-image: url("../img/pic2.jpg");
+  }
+  table {
+    width: 100%;
+  }
+  .content {
+    height: 420px;
+    display: flex;
+    align-items: baseline;
+  }
+}

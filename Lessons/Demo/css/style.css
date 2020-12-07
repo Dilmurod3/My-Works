@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+  list-style: none;
+  text-decoration: none;
+}
+ul {
+  display: flex;
+  flex-wrap: wrap;
+}
+a {
+  background-color: white;
+  border: 2px solid white;
+  color: black;
+  padding: 5px 10px;
+  font-size: larger;
+  border-radius: 4px;
+}
+a:hover {
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+}
+body {
+  background-image: url(../img/../img/pic2.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container {
+  display: flex;
+}
+.container-1 {
+  width: 50%;
+  padding: 20px;
+  /* box-sizing: border-box; */
+}
+.container-1 h1 {
+  margin-top: 50px;
+  margin-left: 80px;
+  color: white;
+}
+.container-2 {
+  width: 50%;
+  padding: 20px;
+  /* box-sizing: border-box; */
+}
+.container-2 h1 {
+  color: white;
+  margin-top: 50px;
+  margin-left: 80px;
+}
+.lessons {
+  margin-top: 100px;
+}
+.lessons ul li {
+  padding: 20px 10px;
+}
+.exercises ul li {
+  padding: 20px 10px;
+}
+.exercises {
+  margin-top: 100px;
+}
+
+@media (min-width: 550px) and (max-width: 1020px) {
+  body {
+    background-image: url(../img/pic1.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  a {
+    font-size: 20px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-1 h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .container-2 h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .container-1 {
+    width: 100%;
+    padding: 0;
+  }
+  .container-2 {
+    width: 100%;
+    padding: 0;
+  }
+  .lessons {
+    margin-top: 20px;
+    padding-bottom: 0;
+  }
+  .exercises {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .lessons ul li {
+    padding: 15px;
+  }
+  .exercises ul li {
+    padding: 15px;
+  }
+}
+@media (min-width: 401px) and (max-width: 550px) {
+  body {
+    background-image: url(../img/mobile.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  a {
+    font-size: 17px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-1 h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .container-2 h1 {
+    margin-top: 20px;
+    margin-left: 20px;
+  }
+  .container-1 {
+    width: 100%;
+    padding: 0;
+  }
+  .container-2 {
+    width: 100%;
+    padding: 0;
+  }
+  .lessons {
+    margin-top: 20px;
+    padding-bottom: 0;
+  }
+  .exercises {
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .lessons ul li {
+    padding: 10px;
+  }
+  .exercises ul li {
+    padding: 10px;
+  }
+}
+
+@media (min-width: 300px) and (max-width: 400px) {
+  body {
+    background-image: url(../img/mobile.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  a {
+    font-size: 13px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px 5px;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-1 h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .container-2 h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .container-1 {
+    width: 100%;
+    padding: 0;
+  }
+  .container-2 {
+    width: 100%;
+    padding: 0;
+  }
+  .lessons {
+    margin-top: 20px;
+    padding-bottom: 0;
+  }
+  .exercises {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  .lessons ul li {
+    padding: 10px;
+  }
+  .exercises ul li {
+    padding: 10px;
+  }
+}
+
+@media (max-width: 299px) {
+  body {
+    background-image: url(../img/mobile.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+  }
+  a {
+    font-size: 12px;
+  }
+  ul {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0;
+  }
+  .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .container-1 h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .container-2 h1 {
+    margin-top: 10px;
+    margin-left: 10px;
+  }
+  .container-1 {
+    width: 100%;
+    padding: 0;
+  }
+  .container-2 {
+    width: 100%;
+    padding: 0;
+  }
+  .lessons {
+    margin-top: 0;
+    padding-bottom: 0;
+  }
+  .exercises {
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .lessons ul li {
+    padding: 10px 5px;
+  }
+  .exercises ul li {
+    padding: 10px 5px;
+  }
+}

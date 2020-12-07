@@ -1,0 +1,65 @@
+.link {
+  margin: 10px 20px;
+  padding: 10px 20px;
+  text-decoration: none;
+  display: inline-block;
+  padding: 10px 20px;
+  color: white;
+  border-radius: 10px;
+  font-size: 40px;
+  transition-duration: 100ms;
+  border: 2px solid white;
+}
+.link:hover {
+  background-color: white;
+  transform: scale(1.2);
+}
+.link-google {
+  background-color: #023e8a;
+}
+.link-google:hover {
+  color: #023e8a;
+  border: 2px solid #023e8a;
+}
+.link-facebook {
+  background-color: #3a86ff;
+}
+.link-facebook:hover {
+  color: #3a86ff;
+  border: 2px solid #3a86ff;
+}
+.link-apple {
+  background-color: #8d99ae;
+}
+.link-apple:hover {
+  color: #8d99ae;
+  border: 2px solid #8d99ae;
+}
+.link-amazon {
+  background-color: #f9c74f;
+}
+.link-amazon:hover {
+  border: 2px solid #f9c74f;
+  color: #f9c74f;
+}
+.link-microsoft {
+  background-color: #1b4332;
+}
+.link-microsoft:hover {
+  color: #1b4332;
+  border: 2px solid #1b4332;
+}
+.link-dell {
+  background-color: #495867;
+}
+.link-dell:hover {
+  color: #495867;
+  border: 2px solid #495867;
+}
+.link-youtube {
+  background-color: #d90429;
+}
+.link-youtube:hover {
+  color: #d90429;
+  border: 2px solid #d90429;
+}

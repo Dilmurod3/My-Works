@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+.head {
+  margin: 0;
+  margin-bottom: 100px;
+  padding: 5px 10px;
+  width: 98%;
+  background-color: deepskyblue;
+  border-radius: 16px;
+}
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.card {
+  width: 330px;
+  height: 210px;
+  margin: 20px;
+  border-radius: 24px;
+  border: 1px solid gray;
+  transition: 0.5s;
+}
+.card:hover {
+  transform: rotate3d(1, 1, 1, 15deg);
+}
+.card:first-child {
+  background-image: url(../img/google.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card:nth-child(2) {
+  background-image: url(../img/apple.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.card:nth-child(3) {
+  background-image: url(../img/mc.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card:nth-child(4) {
+  background-image: url(../img/visa.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card:nth-child(5) {
+  background-image: url(../img/paypal.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.card:nth-child(6) {
+  background-image: url(../img/samsung.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+h1 {
+  margin-left: 50px;
+  font-family: "Rowdies", cursive;
+}

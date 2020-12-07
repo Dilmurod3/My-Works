@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <h1>Display Flex</h1>
+    <div class="parent">
+        <div class="flexbox">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+        <br>
+        <div class="flexbox-1">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+        <br>
+        <div class="flexbox-2">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+        <h2>Justify content</h2>
+        <p><b>Flex-direction</b> - da qaysi yonaliw berilgan bosa justify-content shunga qarab boxlani togrlab beradi
+        </p>
+        <hr>
+        <h2>For Example</h2>
+        <div class="flexbox-3">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+        <h3>flex-direction row</h3>
+        <p>bu misolda <b>flex-direction row</b> da turipti <b>justify-content center</b> da turipti agar flex
+            Flex-direction row da tursa justify content boxlani eniga qarab ozgartiradi</p>
+        <br>
+        <div class="flexbox-4">
+            <div>1</div>
+            <div>2</div>
+            <div>3</div>
+            <div>4</div>
+        </div>
+        <h2>Flex-direction column</h2>
+        <p>bu misolda <b>flex-direction column</b> da turipti endi justify-content boxni boyiga qarab tog'irlab bervoti
+            justify-content centerda</p>
+        <h4>Agar flex-direction column bosa justify-content vertikal (boyiga) qarab ozgartiradi align items horizontal
+            (eniga) qarab ozgartiradi</h4>
+    </div>
+
+    <!-- second section -->
+
+    <div class="parent-2">
+        <h2>Flex-wrap</h2>
+        <p>Flex-wrap CSS xususiyati moslashuvchan elementlarni namoyish qilish qoidalarini o'rnatadi - bitta qatorli
+            yoki bir nechta, o'rash qutilari bilan. Agar uzatishga ruxsat berilsa, u holda bloklar chiqadigan
+            yo'nalishni belgilash mumkin.</p>
+        <div class="flexblocks">
+            <div class="blocks">1</div>
+            <div class="blocks">2</div>
+            <div class="blocks">3</div>
+            <div class="blocks">4</div>
+            <div class="blocks">5</div>
+            <div class="blocks">6</div>
+            <div class="blocks">7</div>
+            <div class="blocks">8</div>
+            <div class="blocks">9</div>
+            <div class="blocks">10</div>
+        </div>
+        <h2>align-content</h2>
+        <p>flex-wrap ga align-content iwlatiladi</p>
+        <div class="flexblocks-2">
+            <div class="blocks-2">1</div>
+            <div class="blocks-2">2</div>
+            <div class="blocks-2">3</div>
+            <div class="blocks-2">4</div>
+            <div class="blocks-2">5</div>
+            <div class="blocks-2">6</div>
+            <div class="blocks-2">7</div>
+            <div class="blocks-2">8</div>
+            <div class="blocks-2">9</div>
+            <div class="blocks-2">10</div>
+        </div>
+        <h2>flex-basis</h2>
+        <p>flex-basis ozi blocklani eniga berlgan razmer 200px lekn flex-basis da 300px korsatilgan wunichun xamma
+            blockla 300px boldi </p>
+        <h2>flex-grow</h2>
+        <p>flex-grow xamma blocklani paryadka qb berdi flex-grow 1; iwlatildi <b style="color: red;">tepadigi rasm blan
+                soliwtirilsin</b>
+        </p>
+        <div class="flexblocks-3">
+            <div class="blocks-3">1</div>
+            <div class="blocks-3">2</div>
+            <div class="blocks-3">3</div>
+            <div class="blocks-3">4</div>
+            <div class="blocks-3">5</div>
+            <div class="blocks-3">6</div>
+            <div class="blocks-3">7</div>
+            <div class="blocks-3">8</div>
+            <div class="blocks-3">9</div>
+            <div class="blocks-3">10</div>
+        </div>
+        <h2>flex-shrink</h2>
+        <p>flex-growi teskarisi bop iwlidi grow chozib bersa shrink sjimat (siqib) beradi</p>
+        <hr>
+        <h2>FLEX</h2>
+        <p>udobstva boliwi uchun tepada 3ta kegan flex-basis, grow, shrink db yozb otrmasdan qisqartrb flex ozida
+            bersayam boladi <b style="color: red;">(Masalan: flex: 1 1 300px)</b> qovus ichida flexdan keyn 1chi
+            kegan 1 bu grow 2chi 1 bu shrink
+            uchinchisi 300px bu flex-basis</p>
+        <div class="flexblocks-4">
+            <div class="blocks-4">1</div>
+            <div class="blocks-4">2</div>
+            <div class="blocks-4">3</div>
+            <div class="blocks-4">4</div>
+            <div class="blocks-4">5</div>
+            <div class="blocks-4">6</div>
+            <div class="blocks-4">7</div>
+            <div class="blocks-4">8</div>
+            <div class="blocks-4">9</div>
+            <div class="blocks-4">10</div>
+        </div>
+    </div>
+    <!-- section-3 -->
+    <div class="parent-3">
+        <h2>Order</h2>
+        <p><b style="color: red;">order</b> Свойство определяет порядок гибкого элемента по отношению к остальной части
+            гибких элементов внутри одной и
+            той же емкости.
+
+            Примечание. Если элемент не является гибким, orderсвойство не действует.</p>
+        <div class="flex-order">
+            <div class="flex-inner">1</div>
+            <div class="flex-inner">2</div>
+            <div class="flex-inner">3</div>
+            <div class="flex-inner">4</div>
+            <div class="flex-inner">5</div>
+        </div>
+    </div>
+
+    <div class="foot">
+        <h3 style="color: red;">html da style berw shu yozuv kodini qaralsin</h3>
+    </div>
+
+
+
+</body>
+
+</html>

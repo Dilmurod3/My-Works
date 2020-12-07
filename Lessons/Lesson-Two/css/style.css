@@ -1,0 +1,17 @@
+h2 {
+    text-transform: uppercase;
+    color: steelblue;
+    text-align: center;
+}
+div p {
+    font-style: italic;
+}
+p {
+    text-align: center;
+}
+.red {
+    color: darkred;
+}
+#heading {
+    border-bottom: 1px solid black;
+}

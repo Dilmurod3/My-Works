@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+body {
+    background-color: black;
+}
+.image {
+    margin: 15px;
+    padding: 15px;
+    width: 350px;
+    height: 600px;
+    background-size: cover;
+    border-radius: 16px;
+}
+
+.image-1 {
+    background-image: url(../img/London.jpg);
+}
+.image-2 {
+    background-image: url(../img/Paris.jpg);
+}
+.image-3 {
+    background-image: url(../img/NewYork.jpg);
+}
+
+.content-text {
+    width: 800px;
+}
+
+.background1 {
+    background-image: url(../img/L1.jpg);
+    background-size: cover;
+    background-attachment: fixed; /* Parralax effext */
+}
+.background2 {
+    background-image: url(../img/P1.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.background3 {
+    background-image: url(../img/NY.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+.content {
+    display: flex;
+    flex-wrap: wrap;  /* (Bu wrap ekranga sigmasa ozi sigdrb moslawtrb beradi) */
+}
+
+p {
+    color: black;
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    color: black
+    font-family: 'Open Sans', sans-serif;
+}

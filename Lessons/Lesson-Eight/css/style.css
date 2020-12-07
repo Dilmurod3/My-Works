@@ -1,0 +1,71 @@
+body {
+  background-image: url("../img/123.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+div {
+  width: 200px;
+  height: 200px;
+  border: 2px solid black;
+}
+
+#box1 {
+  background-color: brown;
+  display: inline-block;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.box {
+  background-color: burlywood;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.box2 {
+  display: inline;
+  background-color: blueviolet;
+}
+img {
+  margin-right: 10px;
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+.text1 {
+  position: relative;
+  left: 226px;
+  bottom: 86px;
+}
+.text2 {
+  position: relative;
+  left: 498px;
+  bottom: 172px;
+}
+span {
+  color: red;
+  font-size: 1.3em;
+}
+.icon {
+  color: white;
+  font-size: 1em;
+  margin-left: 5px;
+}
+.fixed {
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  vertical-align: middle;
+  text-align: center;
+  background-color: green;
+  position: fixed;
+  right: 10px;
+  top: 10px;
+  padding: 0;
+  display: inline;
+  padding: 5px 10px;
+  border-radius: 10px;
+}

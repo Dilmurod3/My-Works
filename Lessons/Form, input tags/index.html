@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+    <p>form method="POST" :get:ga qaraganda kopro ishlatilinadi f.e. registration avtorizaciya</p>
+    <p>form method GET kopro poiskka filtraciyaga ishlatilinadi</p>
+    <form action="#" method="POST">
+        <input type="text" placeholder="write anything">
+        <input type="submit" value="submit">
+    </form>
+
+    <br>
+
+    <form action="#" method="GET">
+        <input type="email" name="email" id="" placeholder="Your Email">
+        <input type="password" name="password" id="" placeholder="Password">
+        <button type="submit">Submit</button>
+
+    </form>
+    <br>
+    <label>
+        <input type="checkbox"> I accept
+    </label>
+    <br>
+    <br>
+    <h3>input radio</h3>
+    <p>input radio da xammasini name"" bir xil boliwi kere keyn bosilganda udobni boliwi uchun label qoshiladi label
+        qoshishni ikkinchi varianti yaxshi (apple yozuvidi)</p>
+    <input type="radio" name="option" id="google" value="Google"><label for="google">Google</label>
+    <label>
+        <input type="radio" name="option" id="#" value="Apple" checked> Apple
+    </label>
+    <input type="radio" name="option" id="#" value="Microsoft"> Microsoft
+
+    <br>
+    <br>
+    <h3> Element "select" ichida "option" tagla "value" serverga ketadigan tag</h3>
+    <select name="select" id="">
+        <option value="google">Google</option>
+        <option value="apple">Apple</option>
+        <option value="microsoft" selected>Microsoft</option>
+    </select>
+    <br>
+    <h3>textarea</h3>
+    <p>"resize: none" css da razmerini ozgartrb bomidigan qb qoyw
+    </p>
+    <textarea name="textarea" id="" cols="30" rows="10" placeholder="write something"></textarea>
+
+
+    <br>
+
+
+
+    <div class="container">
+
+        <h4> "Outline: none" - miwka bosilgandan keyn inputi chetidigi urod borderlani op tawidi</h4>
+        <h4>"input:invalid" - agar email yoki parol notori yozilgan bosa xato db korsatadi</h4>
+
+
+
+        <form action="#" class="subscribtion">
+            <div class="subscribtion__field">
+                Email<input type="email" name="email" placeholder="Your Email">
+                Password<input type="password" name="password" placeholder="Password">
+            </div>
+            <div class="subscribtion__submit">
+                <input type="button" value="Submit" disabled>
+            </div>
+    </div>
+    </form>
+
+
+    <br>
+
+    <form>
+        <label>
+
+            <input type="date">
+            calendar
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="time">
+            time
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="datetime-local">
+            datetime local
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="month">
+            month
+        </label>
+        <br>
+        <br>
+        <label>
+            <input type="week">
+            week
+        </label>
+        <br>
+        <br>
+        <button type="submit">send</button>
+    </form>
+
+
+    <br>
+    <form>
+        <label for="brand">Brands</label>
+        <input type="text" id="brand" name="brand" list="brands">
+        <datalist id="brands">
+            <option value="Google" label="Alphabet">Alphabet</option>
+            <option value="Apple">apple.com</option>
+            <option value="Microsoft"></option>
+            <option value="Amazon"></option>
+        </datalist>
+    </form>
+    <br>
+    <div class="container">
+        <form>
+            <label>
+                Email
+                <input type="email" name="" id="" autocomplete="off" autofocus placeholder="email">
+            </label>
+            <br>
+            <br>
+            <label>
+                tel
+                <input type="tel">
+            </label>
+            <br>
+            <br>
+            <label>
+                url
+                <input type="url">
+            </label>
+            <br>
+            <br>
+            <label>
+                number
+                <input type="number">
+            </label>
+            <br>
+            <br>
+            <label>
+                search
+                <input type="search">
+            </label>
+            <br>
+            <br>
+            <label>
+                file
+                <input type="file">
+            </label>
+            <br>
+            <br>
+            <label>
+                color
+                <input type="color">
+            </label>
+            <br>
+            <br>
+            <label>
+                image
+                <input type="image" src="../Lesson-Eight/img/123.jpg" width="200px">
+            </label>
+            <br>
+            <br>
+            <button style="width: 100px;" type="submit">submit</button>
+        </form>
+    </div>
+    <br>
+
+    <h1>Pattern</h1>
+    <p>pattern tag name da ^ znachok blan bowlanadi $ blan tugidi </p>
+    <form class="subs-2">
+        <label>имя
+            <input type="name" pattern="^([А-Яа-я]+)$" autocomplete="off" placeholder="писать только на русском">
+        </label>
+        <label>Email
+            <input type="email" name="" id="" pattern="([A-Za-z0-9\.-]+)(@)([A-Za-z0-9\.-]+)(\.)([A-Za-z0-9\.-]{2,})"
+                autocomplete="off" placeholder="email">
+        </label>
+        <button>submit</button>
+    </form>
+    <br>
+
+    <hr>
+    <br>
+    <form oninput="result.value=myRange.value">
+        <input type="range" name="myRange" id="myRange" step="1" min="0" max="15" value="0">
+
+        <output name="result" for="myRange">0</output>
+        <br>
+        <br>
+        <progress name="result" for="myRange" max="10" value="7">0</progress>
+        <br>
+        <br>
+        <meter min="0" max="100" low="33" high="66" optimum="80" value="50">50/100</meter>
+        <br>
+        <br>
+        <div class="status">
+            <div class="inline-status"></div>
+        </div>
+    </form>
+    <div style="width: 100%; height: 500px;"></div>
+</body>
+
+</html>

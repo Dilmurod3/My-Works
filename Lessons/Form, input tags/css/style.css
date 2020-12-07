@@ -1,0 +1,92 @@
+textarea {
+  width: 300px;
+  height: 200px;
+  resize: none;
+  border-radius: 0 px;
+  padding: 10px;
+  border-style: dashed;
+}
+
+.container {
+  margin-top: 40px;
+  width: 100%;
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: rosybrown;
+}
+
+.subscribtion {
+  margin-left: 50px;
+  width: 500px;
+  padding: 20px;
+  background-color: teal;
+  border-radius: 8px;
+}
+
+.subscribtion__field {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.subscribtion__field input {
+  padding: 10px;
+  margin: 5px 0;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  border: 2px solid white;
+}
+
+.subscribtion__field input:invalid {
+  border: 2px solid red;
+}
+
+.subscribtion__field input:focus {
+  background-color: teal;
+  color: white;
+  border: 2px solid white;
+}
+.subscribtion__submit input {
+  background-color: white;
+  color: teal;
+  font-weight: bold;
+  padding: 5px 15px;
+  border: 2px solid white;
+  margin-top: 10px;
+  border-radius: 6px;
+  font-size: medium;
+  outline: none;
+}
+
+.subscribtion__submit input:hover {
+  background-color: teal;
+  color: white;
+  cursor: pointer;
+}
+
+.subscribtion__submit input[type="button"]:disabled {
+  opacity: 0.5;
+}
+
+.subs-2 input:invalid {
+  border: 1px solid red;
+}
+
+.status {
+  width: 25%;
+  height: 10px;
+  /* border: 1px solid black; */
+  background-color: lightgrey;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.inline-status {
+  width: 65%;
+  height: 10px;
+  background-color: lightseagreen;
+  border-radius: 16px;
+}
