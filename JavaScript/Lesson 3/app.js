@@ -19,7 +19,7 @@ function calculateBmi() {
     const result = document.querySelector("#result");
     
     const weight = parseFloat(weightVal.value);
-    const height = parseFloat(heightVal.value);
+    const height = parseFloat(heightVal.value / 100);
     //parseFloat - bu stringdan raqamga ogirib beradi
     let bmi = (weight / (height * height)).toFixed(2);
     // toFixed - kopaytrib bolgandan keyn soni orqasida qop ketadigan ortiqcha uzun sonlani optawidi qovusi ichiga 2 db yozlgan xozi 2tasini qoldiradi
